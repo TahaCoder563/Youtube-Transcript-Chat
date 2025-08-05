@@ -49,8 +49,13 @@ The core Streamlit app that:
     * Go to https://huggingface.co/settings/tokens
     * Create a token with read access
    
-   Now paste your keys in the .env file:
-  
+   Create a .env file in the root of the project and paste your keys:
+   ```bash
+   PERPLEXITY_API_KEY="your_perplexity_api_key_here"
+   HUGGINGFACEHUB_API_TOKEN="your_huggingface_token_here"
+   ```
+   Replace the your_perplexity_api_key_here and your_huggingface_token_here with the respective api keys.
+
 4. **Run the app**
    ```bash
    streamlit run main.py
